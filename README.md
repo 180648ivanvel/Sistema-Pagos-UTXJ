@@ -1,27 +1,32 @@
-# SistemaPagosUtxj
+# Sistema de Pagos y Envíos de Colegiatura
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.2.
+## Integrantes ✍
+_Colaboradores dentro de la realización del proyecto_
+* Saúl Galván Alvarado [Saul-Galvan-Alvarado-1999](http://github.com/Saul-Galvan-Alvarado-1999)
+* Joel Zuñiga Fernaldo [tlapopo](https://github.com/tlapopo)
+* Antonio Espinoza Negrete [antonio-espi](https://github.com/antonio-espi)
+* Iván Velázquez Luna [180648ivanvel](https://github.com/180648ivanvel)
+* Sabdiel Gutiérrez Mejía [Sabdiel](http://github.com/sabdiel)
 
-## Development server
+## Objetivo 📄
+Desarrollar un sistema web por el cual los alumnos pertenecientes a la Universidad Tecnológica de Xicotepec de Juárez puedan generar una referencia de pago correspondiente al pago cuatrimestral que realizan para posteriormente realizar el pago dentro del sistema esta acción permitirá al usuario enviar el comprobante obtenido al servicio encargado del área de finanzas de la institución, con el fin de optimizar este proceso a tan solo 3 pasos dentro del sistema.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Tipos de Usuarios 👔
+_Esta sección define los usuarios que serán implementados para interactuar con el sistema_
+* Super administrador: Usuario encargado de administrar los grupos y carpetas correspondientes a cada cuatrimestre, así mismo se encarga de revisar que el sistema funcione correctamente durante cada período.
+* Administrador: Usuario asociado al área de finanzas el cual tendrá los permisos necesarios para consultar toda la información que se haya recopilado durante el periodo de pago, para así anotar quienes ya han cumplido con los pagos en tiempo y forma.
+* Usuario final: El alumno como usuario final será el cual haga uso de las funciones de generación de referencia así mismo como el de pago y la función de envió al área de finanzas.
 
-## Code scaffolding
+## Funcionalidades ⚒
+_Descripción de las funciones del sistema_
+* **Login**: Identificar el acceso dependiendo del tipo de usuario, para poder redirigirlo a su respectiva interfaz donde podrá ejecutar las acciones correspondientes a sus privilegios.
+* **Generación de referencia de pago**: Mostrar un formulario con los datos correctos del alumno y demás campos para generar la referencia de pago.
+* **Pago**: Permitir realizar el pago de acuerdo a la cantidad establecida por medio del sistema electrónico.
+* **Envío de comprobante**: Enviar el comprobante generado al área de finanzas.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Entorno de desarrollo 🔧
+_Herramientas utilizadas para la elaboración del proyecto._
+* [Angular](https://angular.io/)- El Framework web utilizado para el desarrollo del  proyecto.
+* [Mongo DB](https://www.mongodb.com/)- Gestor de bases de datos utilizado para el desarrollo de la base de datos.
+* [Postman](https://www.postman.com/)- Plataforma de colaboración para el desarrollo de APIs utilizado para la realización de pruebas de funcionamiento de obtención de datos.
+* [Visual Studio Code](https://code.visualstudio.com/)- Editor de código utilizado.
