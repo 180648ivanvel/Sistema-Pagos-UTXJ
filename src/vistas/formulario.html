@@ -12,284 +12,113 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
     <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
-<body>
-<div class="modal-dialog text-center">
-        <div class="col-sm-8 main-section">
-            <div class="modal-content">
-<div id="cid_3" class="form-input-wide" data-type="control_head">
-        <div class="form-header-group  header-large">
-          <div class="header-text httac ">
-            <h1 id="header_3" class="form-header" data-component="header">
-              Estimado Alumno:
-            </h1>
-            <div id="subHeader_3" class="form-subHeader">
-              Bienvenid@ a nuestro sistema de pagos en linea de la UTXJ
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="cid_4" class="form-input-wide" data-type="control_head">
-        <div class="form-header-group  header-small">
-          <div class="header-text  ">
-            <h3 id="header_4" class="form-header" data-component="header">
-              INGRESO DE DATOS
-            </h3>
-            <div id="subHeader_4" class="form-subHeader">
-              Por favor, ingrese cuidadosamente su información.
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="form-line jf-required" data-type="control_radio" id="id_49">
-        <label class="form-label form-label-left form-label-auto" id="label_49" for="input_49">
-          Selecciona tipo de persona:
-          <span class="form-required">
-            
-          </span>
-        </label>
-        <div id="cid_01" class="form-input jf-required">
-          <div class="form-single-column" role="group" aria-labelledby="label_49" data-component="radio">
-            <span class="form-radio-item" style="clear:left">
-              <span class="dragger-item">
-              </span>
-              <input type="radio" class="form-radio validate[required]" id="input_49_0" name="q49_seleccionaTipo" value="PERSONA FÍSICA" required="">
-              <label id="label_input_49_0" for="input_49_0"> PERSONA FÍSICA </label>
-            </span>
-            <span class="form-radio-item" style="clear:left">
-              <span class="dragger-item">
-              </span>
-              <input type="radio" class="form-radio validate[required]" id="input_49_1" name="q49_seleccionaTipo" value="PERSONA MORAL" required="">
-              <label id="label_input_49_1" for="input_49_1"> PERSONA MORAL </label>
-            </span>
-          </div>
-        </div>
-      </div>
-      <div class="form-line jf-required form-field-hidden" style="display: none !important;" data-type="control_textbox" id="id_53">
-        <label class="form-label form-label-left form-label-auto" id="label_53" for="input_53">
-          Ingresa CURP:
-          <span class="form-required">
-            
-          </span>
-        </label>
-        <div id="cid_53" class="form-input jf-required">
-          <span class="form-sub-label-container" style="vertical-align:top">
-            <input type="text" id="input_53" name="q53_ingresaRfc" data-type="input-textbox" class="form-textbox validate[required, Fill Mask]" size="14" data-masked="true" value="" data-component="textbox" aria-labelledby="label_53 sublabel_input_53" required="" im-insert="true" maskvalue="@@@@######***">
-            <label class="form-sub-label" for="input_53" id="sublabel_input_53" style="min-height:13px" aria-hidden="false"> Persona Física </label>
-          </span>
-        </div>
-      </div>
-      <div class="form-line jf-required form-line-error"  data-type="control_textbox" id="id_52">
-        <label class="form-label form-label-left form-label-auto" id="label_52" for="input_52">
-          Ingresa CURP:
-          <span class="form-required">
-            
-          </span>
-        </label>
-        <div id="cid_52" class="form-input jf-required">
-          <span class="form-sub-label-container" style="vertical-align:top">
-            <input type="text" id="input_52" name="q52_ingresaRfc52" data-type="input-textbox" class="form-textbox validate[required, Fill Mask] form-validation-error" size="20" data-masked="true" value="" data-component="textbox" aria-labelledby="label_52 sublabel_input_52" required="" im-insert="true" maskvalue="@@@######***">
-            <label class="form-sub-label" for="input_52" id="sublabel_input_52" style="min-height:13px" aria-hidden="false"> </label>
-          </span>
-        <div class="form-error-message"><img src="https://cdn.jotfor.ms/images/exclamation-octagon.png"> Campos requeridos<div class="form-error-arrow"><div class="form-error-arrow-inner"></div></div></div></div>
-      </div><div class="form-line" data-type="control_textbox" id="id_54">
-        <label class="form-label form-label-left form-label-auto" id="label_54" for="input_54"> Beneficiario </label>
-        <div id="cid_54" class="form-input">
-          <span class="form-sub-label-container" style="vertical-align:top">
-            <input type="text" id="input_54" name="q54_razonSocial" data-type="input-textbox" class="form-textbox" size="50" value="" data-component="textbox" aria-labelledby="label_54 sublabel_input_54">
-            <label class="form-sub-label" for="input_54" id="sublabel_input_54" style="min-height:13px" aria-hidden="false">(Nombre completo seguido del cuatrimestre y la abrebiación de su carrera)</label>
-          </span>
-        </div>
-      </div>
-      <div class="form-line" data-type="control_textbox" id="id_55">
-        <label class="form-label form-label-left form-label-auto" id="label_55" for="input_55"> Nombre(s) </label>
-        <div id="cid_55" class="form-input">
-          <input type="text" id="input_55" name="q55_calle" data-type="input-textbox" class="form-textbox" size="50" value="" data-component="textbox" aria-labelledby="label_55">
-        </div>
-        <div class="form-line" data-type="control_textbox" id="id_55">
-        <label class="form-label form-label-left form-label-auto" id="label_55" for="input_55"> Apellido Paterno </label>
-        <div id="cid_55" class="form-input">
-          <input type="text" id="input_55" name="q55_calle" data-type="input-textbox" class="form-textbox" size="50" value="" data-component="textbox" aria-labelledby="label_55">
-        </div>
-        <div class="form-line" data-type="control_textbox" id="id_55">
-        <label class="form-label form-label-left form-label-auto" id="label_55" for="input_55"> Apellido Materno </label>
-        <div id="cid_55" class="form-input">
-          <input type="text" id="input_55" name="q55_calle" data-type="input-textbox" class="form-textbox" size="50" value="" data-component="textbox" aria-labelledby="label_55">
-        </div>
-      <div class="form-line" data-type="control_textbox" id="id_55">
-        <label class="form-label form-label-left form-label-auto" id="label_55" for="input_55"> Calle: </label>
-        <div id="cid_55" class="form-input">
-          <input type="text" id="input_55" name="q55_calle" data-type="input-textbox" class="form-textbox" size="50" value="" data-component="textbox" aria-labelledby="label_55">
-        </div>
-      </div>
-      <div class="form-line" data-type="control_textbox" id="id_56">
-        <label class="form-label form-label-left form-label-auto" id="label_56" for="input_56"> Número exterior: </label>
-        <div id="cid_56" class="form-input">
-          <input type="text" id="input_56" name="q56_numeroExterior" data-type="input-textbox" class="form-textbox" size="50" value="" data-component="textbox" aria-labelledby="label_56">
-        </div>
-      </div>
-      <div class="form-line" data-type="control_textbox" id="id_57">
-        <label class="form-label form-label-left form-label-auto" id="label_57" for="input_57"> Número interior: </label>
-        <div id="cid_57" class="form-input">
-          <input type="text" id="input_57" name="q57_numeroInterior" data-type="input-textbox" class="form-textbox" size="50" value="" data-component="textbox" aria-labelledby="label_57">
-        </div>
-      </div>
-      <div class="form-line" data-type="control_textbox" id="id_58">
-        <label class="form-label form-label-left form-label-auto" id="label_58" for="input_58"> Colonia: </label>
-        <div id="cid_58" class="form-input">
-          <input type="text" id="input_58" name="q58_colonia" data-type="input-textbox" class="form-textbox" size="50" value="" data-component="textbox" aria-labelledby="label_58">
-        </div>
-      </div>
-      <div class="form-line" data-type="control_textbox" id="id_60">
-        <label class="form-label form-label-left form-label-auto" id="label_60" for="input_60"> Código Postal: </label>
-        <div id="cid_60" class="form-input">
-          <input type="text" id="input_60" name="q60_codigoPostal" data-type="input-textbox" class="form-textbox validate[Fill Mask]" size="5" data-masked="true" value="" data-component="textbox" aria-labelledby="label_60" im-insert="true" maskvalue="#####">
-        </div>
-      </div>
-      <div class="form-line" data-type="control_dropdown" id="id_61">
-        <label class="form-label form-label-left form-label-auto" id="label_61" for="input_61"> Entidad Federativa: </label>
-        <div id="cid_61" class="form-input">
-          <select class="form-dropdown" id="input_61" name="q61_entidadFederativa" style="width:150px" data-component="dropdown" aria-labelledby="label_61">
-            <option value="">  </option>
-            <option value="Aguascalientes"> Aguascalientes </option>
-            <option value="Baja California"> Baja California </option>
-            <option value="Baja California Sur"> Baja California Sur </option>
-            <option value="Campeche"> Campeche </option>
-            <option value="Chiapas"> Chiapas </option>
-            <option value="Chihuahua"> Chihuahua </option>
-            <option value="Ciudad de México"> Ciudad de México </option>
-            <option value="Coahuila de Zaragoza"> Coahuila de Zaragoza </option>
-            <option value="Colima"> Colima </option>
-            <option value="Durango"> Durango </option>
-            <option value="Estado de México"> Estado de México </option>
-            <option value="Guanajuato"> Guanajuato </option>
-            <option value="Guerrero"> Guerrero </option>
-            <option value="Hidalgo"> Hidalgo </option>
-            <option value="Jalisco"> Jalisco </option>
-            <option value="Michoacán de Ocampo"> Michoacán de Ocampo </option>
-            <option value="Morelos"> Morelos </option>
-            <option value="Nayarit"> Nayarit </option>
-            <option value="Nuevo León"> Nuevo León </option>
-            <option value="Oaxaca"> Oaxaca </option>
-            <option value="Puebla"> Puebla </option>
-            <option value="Querétaro"> Querétaro </option>
-            <option value="Quintana Roo"> Quintana Roo </option>
-            <option value="San Luis Potosí"> San Luis Potosí </option>
-            <option value="Sinaloa"> Sinaloa </option>
-            <option value="Sonora"> Sonora </option>
-            <option value="Tabasco"> Tabasco </option>
-            <option value="Tamaulipas"> Tamaulipas </option>
-            <option value="Tlaxcala"> Tlaxcala </option>
-            <option value="Veracruz de Ignacio de la Llave"> Veracruz de Ignacio de la Llave </option>
-            <option value="Yucatán"> Yucatán </option>
-            <option value="Zacatecas"> Zacatecas </option>
-          </select>
-        </div>
-      </div>
-      <div class="form-line" data-type="control_textbox" id="id_62">
-        <label class="form-label form-label-left form-label-auto" id="label_62" for="input_62"> Delegación/Municipio: </label>
-        <div id="cid_62" class="form-input">
-          <input type="text" id="input_62" name="q62_delegacionmunicipio" data-type="input-textbox" class="form-textbox" size="60" value="" data-component="textbox" aria-labelledby="label_62">
-        </div>
-      </div>
-      <div class="form-line" data-type="control_textbox" id="id_63">
-        <label class="form-label form-label-left form-label-auto" id="label_63" for="input_63"> Localidad: </label>
-        <div id="cid_63" class="form-input">
-          <input type="text" id="input_63" name="q63_localidad" data-type="input-textbox" class="form-textbox" size="60" value="" data-component="textbox" aria-labelledby="label_63">
-        </div>
-      </div>
-      
-        
-      <div class="form-line" data-type="control_dropdown" id="id_66" style="z-index: 0;">
-        <label class="form-label form-label-left form-label-auto" id="label_66" for="input_66"> Concepto </label>
-        <div id="cid_66" class="form-input">
-          <select class="form-dropdown" id="input_66" name="q66_conceptos" style="width:150px" data-component="dropdown" aria-labelledby="label_66">
-            <option value="">  </option>
-            <option value="Material educativo"> Pago de Cuatrimestre </option>
-            <option value="Pago de curso de idiomas"> Pago de Seguro Falcutativo </option>
-            <option value="Traducción de documentos"> Pago de Titulo </option>
-            <option value="Asesorías educativas"> Pago de Ficha </option>
-          </select>
-        </div>
-      <div class="form-description" style="display: none;"><div class="form-description-arrow"></div><div class="form-description-arrow-small"></div><div class="form-description-content">Puedes elegir algunos de los conceptos internos disponibles como sugerencias, de lo contrario su facturación será por los conceptos en su nota de su pago.</div></div></div>
-      <div class="form-line form-line-column form-col-1 jf-required" data-type="control_email" id="id_13">
-        <label class="form-label form-label-top" id="label_13" for="input_13">
-          Correo Electrónico institucional en caso de contar con uno
-          <span class="form-required">
-            
-          </span>
-        </label>
-        <div id="cid_13" class="form-input-wide jf-required">
-          <div data-wrapper-react="true">
-            <input type="email" id="input_13" name="q13_correoElectronico" class="form-textbox validate[required, Email]" size="50" value="" placeholder="ejemplo@utxicotepec.edu.mx" data-component="email" aria-labelledby="label_13" required="">
-            <br>
-            <label class="form-sub-label" style="border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;white-space:nowrap" for="input_13_confirm"> Confirmation Email </label>
-            <input type="email" id="input_13_confirm" name="q13_correoElectronico" class="form-textbox validate[required, Email, Email_Confirm]" style="margin-top:8px" size="50" value="" placeholder="Confirmar E-mail" data-component="emailConfirmation" onpaste="return false;">
-          </div>
-        </div>
-      </div>
-      <div class="form-line jf-required" data-type="control_phone" id="id_43">
-        <label class="form-label form-label-left form-label-auto" id="label_43" for="input_43_full">
-          Teléfono
-          <span class="form-required">
-            
-          </span>
-        </label>
-        <div id="cid_43" class="form-input jf-required">
-          <span class="form-sub-label-container" style="vertical-align:top">
-            <input type="tel" id="input_43_full" name="q43_telefonoPara[full]" data-type="mask-number" class="mask-phone-number form-textbox validate[required, Fill Mask]" autocomplete="off" data-masked="true" value="" data-component="phone" aria-labelledby="label_43" required="" im-insert="true" maskvalue="(###) ###-####">
-            <label class="form-sub-label" for="input_43_full" id="sublabel_43_masked" style="min-height:13px" aria-hidden="false">  </label>
-          </span>
-        </div>
-      </div>
-      <div id="cid_36" class="form-input-wide" data-type="control_head">
-        <div class="form-header-group  header-small">
-          <div class="header-text httac ">
-            <h3 id="header_36" class="form-header" data-component="header">
-              :::: Aviso de Privacidad ::::
-            </h3>
-          </div>
-        </div>
-      </div>
-      <div class="form-line" data-type="control_text" id="id_47">
-        <div id="cid_47" class="form-input-wide">
-          <div id="text_47" class="form-html" data-component="text">
-            <p style="text-align:center;"><span style="font-size:8pt;">Los datos personales que proporcionas a través del Sistema de Pagos en Línea (https://eservicios.impi.gob.mx/seimpi/) con motivo de los trámites y servicios tarifados que se realizan en el marco de la Ley de la Propiedad Industrial, particularmente para el tema de comprobante fiscal (factura) y dar cumplimiento a los requisitos exigidos por la normatividad fiscal nacional aplicable en relación a la emisión de comprobantes fiscales deducibles.
 
-Los datos personales que son sometidos a tratamiento para las finalidades antes señaladas son: Nombre completo, Razón Social, la clave del Registro Federal de Contribuyentes de la persona a favor de quien se expida (artículo 29 A del Código Fiscal de la Federación), Domicilio, Teléfono fijo o móvil, y correo electrónico. Adicionalmente los datos recabados pueden ser utilizados a petición de alguna autoridad fiscal para cumplir con requerimiento solicitados o generar estadísticas sobre los servicios proporcionados; la información estadística no estará asociada con tus datos personales, por lo que no será posible identificarlos.</span></p>
-            <p style="text-align:center;"><br><span style="font-size:8pt;">El tratamiento respectivo se realiza con fundamento en los artículos 29 y 29 A del Código Fiscal de la Federación, Ley del Impuesto al Valor Agregado para 2019: Artículo 32, fracción VIII; Resolución Miscelánea Fiscal para 2019: Regla 4.5.1., Anexo 1, rubro A, numeral 5, Anexo 1-A Trámite 8/IVA. Resolución de Facilidades Administrativas para 2019: Regla 1.3, párrafo tercero, Cadenas productivas (NAFIN) Publicado en el Diario Oficial de la Federación el 25 de junio de 2010</span></p>
-            
+<div class="modal-dialog text-center">
+  <div class="col-sm-8 main-section">
+    <div class="modal-content">
+      <div class="container">
+        <h1>Estimado Alumno</h1>
+        <h5>Bienvenid@ a nuestro sistema de pagos en linea de la UTXJ</h5>
+        <h1>Ingreso de Datos</h1>
+        <h6>Por favor, ingrese cuidadosamente su información.</h6>
+        <form [formGroup]="miForm">
+          Tipo de Persona <br />
+          <input type="radio" class="form-radio validate[required]" id="input_49_0" name="q49_seleccionaTipo"
+            value="PERSONA FÍSICA" required="">
+          <label id="label_input_49_0" for="input_49_0"> Persona Fisica </label><br />
+          <input type="radio" class="form-radio validate[required]" id="input_49_0" name="q49_seleccionaTipo"
+            value="PERSONA FÍSICA" required="">
+          <label id="label_input_49_0" for="input_49_0"> Persona Moral </label><br />
+          Ingresa tu Curp <br><input type="text" class="from-control" formControlName=""><br />
+          Beneficiario <br><input type="text" class="from-control" formControlName=""><br />
+          <h6>(Nombre completo seguido del cuatrimestre y la abrebiación de su carrera)</h6>
+          Nombre <br><input type="text" class="from-control" formControlName=""><br />
+          Apellido Paterno <br><input type="text" class="from-control" formControlName=""><br />
+          Apellido Materno <br><input type="text" class="from-control" formControlName=""><br />
+          Calle <br><input type="text" class="from-control" formControlName=""><br />
+          Numero Exterior <br><input type="text" class="from-control" formControlName=""><br />
+          Numero Interior <br><input type="text" class="from-control" formControlName=""><br />
+          Colonia <br><input type="text" class="from-control" formControlName=""><br />
+          Codigo Postal <br><input type="text" class="from-control" formControlName=""><br />
+          <label class="form-label form-label-left form-label-auto" id="label_61" for="input_61"> Entidad Federativa:
+          </label>
+          <div id="cid_61" class="form-input">
+            <select class="form-dropdown" id="input_61" name="q61_entidadFederativa" style="width:150px"
+              data-component="dropdown" aria-labelledby="label_61">
+              <option value=""> </option>
+              <option value="Aguascalientes"> Aguascalientes </option>
+              <option value="Baja California"> Baja California </option>
+              <option value="Baja California Sur"> Baja California Sur </option>
+              <option value="Campeche"> Campeche </option>
+              <option value="Chiapas"> Chiapas </option>
+              <option value="Chihuahua"> Chihuahua </option>
+              <option value="Ciudad de México"> Ciudad de México </option>
+              <option value="Coahuila de Zaragoza"> Coahuila de Zaragoza </option>
+              <option value="Colima"> Colima </option>
+              <option value="Durango"> Durango </option>
+              <option value="Estado de México"> Estado de México </option>
+              <option value="Guanajuato"> Guanajuato </option>
+              <option value="Guerrero"> Guerrero </option>
+              <option value="Hidalgo"> Hidalgo </option>
+              <option value="Jalisco"> Jalisco </option>
+              <option value="Michoacán de Ocampo"> Michoacán de Ocampo </option>
+              <option value="Morelos"> Morelos </option>
+              <option value="Nayarit"> Nayarit </option>
+              <option value="Nuevo León"> Nuevo León </option>
+              <option value="Oaxaca"> Oaxaca </option>
+              <option value="Puebla"> Puebla </option>
+              <option value="Querétaro"> Querétaro </option>
+              <option value="Quintana Roo"> Quintana Roo </option>
+              <option value="San Luis Potosí"> San Luis Potosí </option>
+              <option value="Sinaloa"> Sinaloa </option>
+              <option value="Sonora"> Sonora </option>
+              <option value="Tabasco"> Tabasco </option>
+              <option value="Tamaulipas"> Tamaulipas </option>
+              <option value="Tlaxcala"> Tlaxcala </option>
+              <option value="Veracruz de Ignacio de la Llave"> Veracruz de Ignacio de la Llave </option>
+              <option value="Yucatán"> Yucatán </option>
+              <option value="Zacatecas"> Zacatecas </option>
+            </select>
           </div>
-        </div>
-      </div>
-      <div class="form-line" data-type="control_widget" id="id_40">
-        <div id="cid_40" class="">
-          <div style="width:100%;text-align:Left" data-component="widget-directEmbed">
-            <div class="direct-embed-widgets mobile-responsive-widget widget-static" data-type="direct-embed" style="width:1px;min-height:1px">
-              <script type="text/javascript" src="https://widgets.jotform.io/mobileResponsive/mobile.responsive.js"></script>
-            </div>
+          Delegacion/Municipio <br><input type="text" class="from-control" formControlName=""><br />
+          Localidad <br><input type="text" class="from-control" formControlName=""><br />
+          <label class="form-label form-label-left form-label-auto" id="label_66" for="input_66"> Concepto </label>
+          <div id="cid_66" class="form-input">
+            <select class="form-dropdown" id="input_66" name="q66_conceptos" style="width:150px"
+              data-component="dropdown" aria-labelledby="label_66">
+              <option value=""> </option>
+              <option value="Material educativo"> Pago de Cuatrimestre </option>
+              <option value="Pago de curso de idiomas"> Pago de Seguro Falcutativo </option>
+              <option value="Traducción de documentos"> Pago de Titulo </option>
+              <option value="Asesorías educativas"> Pago de Ficha </option>
+            </select>
           </div>
-        </div>
+          Correo Electronico Institucional <br><input type="text" class="from-control" formControlName="usuario"><br />
+          Telefono <br><input type="text" class="from-control" formControlName="usuario"><br />
+          <H4>Aviso de Privacidad</H4>
+          <H6>Los datos personales que proporcionas a través del Sistema de Pagos en Línea
+            (https://eservicios.impi.gob.mx/seimpi/) con motivo de los trámites y servicios tarifados que se realizan en
+            el marco de la Ley de la Propiedad Industrial, particularmente para el tema de comprobante fiscal (factura)
+            y dar cumplimiento a los requisitos exigidos por la normatividad fiscal nacional aplicable en relación a la
+            emisión de comprobantes fiscales deducibles. Los datos personales que son sometidos a tratamiento para las
+            finalidades antes señaladas son: Nombre completo, Razón Social, la clave del Registro Federal de
+            Contribuyentes de la persona a favor de quien se expida (artículo 29 A del Código Fiscal de la Federación),
+            Domicilio, Teléfono fijo o móvil, y correo electrónico. Adicionalmente los datos recabados pueden ser
+            utilizados a petición de alguna autoridad fiscal para cumplir con requerimiento solicitados o generar
+            estadísticas sobre los servicios proporcionados; la información estadística no estará asociada con tus datos
+            personales, por lo que no será posible identificarlos.
+
+
+            El tratamiento respectivo se realiza con fundamento en los artículos 29 y 29 A del Código Fiscal de la
+            Federación, Ley del Impuesto al Valor Agregado para 2019: Artículo 32, fracción VIII; Resolución Miscelánea
+            Fiscal para 2019: Regla 4.5.1., Anexo 1, rubro A, numeral 5, Anexo 1-A Trámite 8/IVA. Resolución de
+            Facilidades Administrativas para 2019: Regla 1.3, párrafo tercero, Cadenas productivas (NAFIN) Publicado en
+            el Diario Oficial de la Federación el 25 de junio de 2010</H6>
+          <br><button class="btn btn-primary" type="submit">Enviar</button>
+        </form>
       </div>
-      <div class="form-line" data-type="control_button" id="id_39">
-        <div id="cid_39" class="form-input-wide">
-          <div style="margin-left:156px" data-align="auto" class="form-buttons-wrapper form-buttons-auto   jsTest-button-wrapperField">
-            <button type="submit" class="btn btn-primary" title="Presiona aquí para ingresar al Sistema"><svg class="svg-inline--fa fa-sign-in-alt fa-w-16" aria-hidden="true" data-prefix="fas" data-icon="sign-in-alt" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M416 448h-84c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h84c17.7 0 32-14.3 32-32V160c0-17.7-14.3-32-32-32h-84c-6.6 0-12-5.4-12-12V76c0-6.6 5.4-12 12-12h84c53 0 96 43 96 96v192c0 53-43 96-96 96zm-47-201L201 79c-15-15-41-4.5-41 17v96H24c-13.3 0-24 10.7-24 24v96c0 13.3 10.7 24 24 24h136v96c0 21.5 26 32 41 17l168-168c9.3-9.4 9.3-24.6 0-34z"></path></svg>Enviar </button>
-          </div>
-        </div>
-      </div>
-      </div>
-        </div>
     </div>
-</body>
-<footer id="footer-bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <div class="block">
-                        <p>Copyright &copy; Universidad Tecnológica de Xicotepec de Juárez</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+  </div>
+</div>
+
 </html>
