@@ -17,7 +17,7 @@ exports.config = {
   },
   directConnect: true,
   SELENIUM_PROMISE_MANAGER: false,
-  baseUrl: 'http://localhost:4200/',
+  baseUrl: 'https://180648ivanvel.github.io/Sistema-Pagos-UTXJ/index.html',
   framework: 'jasmine',
   jasmineNodeOpts: {
     showColors: true,
